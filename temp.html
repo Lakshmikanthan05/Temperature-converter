@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mid">
+            <h1>Temperature Converter</h1>
+            <div class="inner-box">
+                <div class="Celsiusclass">
+                    <label for="Celsius">Celsius</label>
+                    <input type="number" name="Celsius" class="labc" id="Celsiusid" oninput="temperatureConverterc(this.value)">
+                    <i>°C</i> 
+                </div>
+                <div class="fahrenheitclass">
+                    <label for="Fahrenheit">Fahrenheit</label>
+                    <input type="number" name="Fahrenheit" class="labf" id="Fahrenheitid" oninput="temperatureConverterf(this.value)">
+                    <i>°F</i>
+                </div>
+                <div class="kelvinclass">
+                    <label for="Kelvin">Kelvin</label>
+                    <input type="number" name="Kelvin" class="labk" id="Kelvinid" oninput="temperatureConverterk(this.value)">
+                    <i>K</i>
+                </div>
+            </div>
+            <button onclick="clearall()">Clear All</button>
+        </div>
+    </div>
+<script src="/temp.js"></script>
+</body>
+</html>

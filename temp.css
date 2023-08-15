@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+    background: linear-gradient(90deg,rgb(124, 211, 222), rgb(255, 255, 255));
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+.mid{
+    background: aliceblue;
+    padding: 40px 40px 40px;
+    border-radius: 30px;
+}
+h1{
+    background: aliceblue;
+    margin-bottom: 40px;
+    font-size: x-large;
+    margin-left: 40px;
+}
+.inner-box{
+    margin: 20px 20px 20px;
+    background: aliceblue;
+}
+.Celsiusclass{
+    background: aliceblue;
+    margin-bottom: 20px;
+}
+.fahrenheitclass{
+    background: aliceblue;
+    margin-bottom: 20px;
+}
+.kelvinclass{
+    background: aliceblue;
+}
+label{
+    background: aliceblue;
+}
+.labc{
+    margin-left: 50px;
+}
+.labf{
+    margin-left: 26px;
+}
+.labk{
+    margin-left: 60px;
+}
+input{
+    background: rgb(229, 230, 231);
+    border: none;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    background: rgb(126, 233, 254);
+    margin-left: 145px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 5px 10px 5px;
+    border-radius: 5px;
+}
+button:active{
+    background: aliceblue;
+}
+i{
+    background: aliceblue;
+}
